@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6783031914355848703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6783031914355848689}
+  - component: {fileID: 6783031914355848693}
+  - component: {fileID: 6783031914355848692}
+  - component: {fileID: 6783031914355848699}
+  - component: {fileID: 6783031914355848698}
+  - component: {fileID: 6783031914355848697}
+  - component: {fileID: 6783031914355848696}
+  m_Layer: 0
+  m_Name: Ground (Grass) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6783031914355848689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783031914355848703}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 145.44235}
+  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6783031914355848693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783031914355848703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b24bd71198d47e292a0af540b5393d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followers: []
+  originalPrefab: {fileID: 1029631551004908, guid: 8df47568422a948e2a859f09fcc1472e,
+    type: 3}
+  originalTag: 
+--- !u!114 &6783031914355848692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783031914355848703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a2ec3539204023adb9441d0ede2a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 5
+  Action: {fileID: 6783031914355848699}
+--- !u!114 &6783031914355848699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783031914355848703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceea4fad866e44c6b4b626e49da43641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useDefaultActor: 0
+  actor: {fileID: 0}
+  isRuntimeActor: 0
+  x: {x: -20, y: 10}
+  y: {x: 0, y: 0}
+  z: {x: -20, y: -21}
+  target: {x: 0, y: 0, z: 0}
+--- !u!114 &6783031914355848698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783031914355848703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a2ec3539204023adb9441d0ede2a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 5
+  Action: {fileID: 6783031914355848697}
+--- !u!114 &6783031914355848697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783031914355848703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceea4fad866e44c6b4b626e49da43641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useDefaultActor: 0
+  actor: {fileID: 0}
+  isRuntimeActor: 0
+  x: {x: -20, y: -21}
+  y: {x: 0, y: 0}
+  z: {x: -3, y: -30}
+  target: {x: 0, y: 0, z: 0}
+--- !u!114 &6783031914355848696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783031914355848703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a2ec3539204023adb9441d0ede2a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 5
+  Action: {fileID: 6783031914355848697}
